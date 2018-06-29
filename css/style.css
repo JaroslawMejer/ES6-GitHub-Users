@@ -1,0 +1,125 @@
+* {
+  font-family: 'Karla', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+body .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body .container h1 {
+  padding: 20px;
+  text-align: center;
+  color: #4e5359;
+}
+
+body .container form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #4e5359;
+}
+
+body .container form label {
+  font-size: 1.3em;
+}
+
+body .container form input {
+  margin: 20px;
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 1px solid #4e5359;
+  border-radius: 10px;
+  outline: none;
+  transition: 1s;
+}
+
+body .container form input::-webkit-input-placeholder {
+  text-align: center;
+  transition: 1s;
+}
+
+body .container form input:-ms-input-placeholder {
+  text-align: center;
+  transition: 1s;
+}
+
+body .container form input::placeholder {
+  text-align: center;
+  transition: 1s;
+}
+
+body .container form input:focus {
+  background-color: white;
+  color: black;
+}
+
+body .container form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+body .container form input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+body .container form input:focus::placeholder {
+  color: transparent;
+}
+
+body .container div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container div .user {
+  background-color: rgba(1, 1, 1, 0.2);
+  width: calc(50% - 10px);
+  padding: 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+body .container div .user img {
+  border-radius: 50%;
+  transition: 1s;
+}
+
+body .container div .user img:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+
+body .container div .user a {
+  text-decoration: none;
+  color: #4e5359;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: 1s;
+}
+
+body .container div .user a:hover {
+  color: #EFF2F7;
+}
+/*# sourceMappingURL=style.css.map */
